@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Style Reset */
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 93.75%; /* 15px */
+}
+
+body {
+  font-family: var(--ff-outfit);
+  font-size: 1rem;
+  background-color: var(--bg-neutral-300);
+}
+
+:root {
+  /* Background */
+  --bg-primary-500: hsl(220, 15%, 55%);
+  --bg-primary-700: hsl(218, 44%, 22%);
+  --bg-neutral-100: hsl(0, 0%, 100%);
+  --bg-neutral-300: hsl(212, 45%, 89%);
+
+  /* Text */
+  --text-primary-500: hsl(220, 15%, 55%);
+  --text-primary-700: hsl(218, 44%, 22%);
+  --text-neutral-100: hsl(0, 0%, 100%);
+  --text-neutral-300: hsl(212, 45%, 89%);
+
+  /* Font Family */
+  --ff-outfit: "Outfit", sans-serif;
+}
+
+.qr-code-component {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  max-width: 20rem;
+  max-height: max-content;
+  margin: 0.5rem auto;
+  padding: 1em;
+
+  background-color: var(--bg-neutral-100);
+  border-radius: 1.5rem;
+  z-index: 20;
+}
+
+/* QR Code Image */
+.qr-code-component .img-container {
+  font-size: 1rem;
+  background-image: url("./images/image-qr-code.png");
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  aspect-ratio: 1 /1;
+  margin-bottom: 2em;
+  border-radius: 0.8rem;
+}
+
+.qr-code-component .description {
+  width: 100%;
+  text-align: center;
+  width: 95%;
+}
+
+.qr-code-component .description h1 {
+  color: var(--text-primary-700);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.qr-code-component .description p {
+  color: var(--text-primary-500);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+/* Attributes */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Size */
+@media (max-width: 375px) {
+}
