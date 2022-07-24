@@ -29,7 +29,7 @@ Your challenge is to build out this QR code component and get it looking as clos
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qr-code-component-JtuGmx9tUI](https://www.frontendmentor.io/solutions/responsive-qr-code-component-JtuGmx9tUI)
 - Live Site URL: [https://joshuakme.github.io/fm-qr-code-component-main/](https://joshuakme.github.io/fm-qr-code-component-main/)
 
 ## My process
